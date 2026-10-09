@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+    body{
+        background-color:  rgb(4, 6, 34);
+        margin: 0;
+    }
+       .container{
+        background-color: burlywood;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 750px;
+        margin-top: 100px;
+        border-radius: 30px;
+    }
+    .container h2{
+        margin-left: 20px;
+        padding: 30px;
+    }
+     form{
+       margin-top: 30px;
+       margin-left: 60px;
+    }
+    .field input{
+        background-color: azure;
+        width: 254px;
+        height: 60px;
+        border: none;
+        border-radius: 32px;
+        padding: 10px;
+        outline: none;
+    }
+       ::placeholder{
+        color: rgb(4, 6, 34);
+    }
+        button{
+        background-color: crimson;
+        border: none;
+        width: 131px;
+        height: 50px;
+        border-radius: 36px;
+        margin-left: 65px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+    } 
+    .container p{
+        text-align: center;
+        margin: 0;
+        margin-right: 30px;
+    }
+    .container a{
+        text-decoration: none;
+        color: rgb(0, 0, 255);
+    } 
+    button:hover{
+        background-color: rgb(4, 6, 34);
+        color: rgb(255, 255, 255);
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+        <h2>Fill the form below to sign up</h2>
+        <p>Already have an account,<a href="signin.html">Sign in</a></p>
+    </div>
+    <form action="">
+        <div class="field">
+            <input type="text" placeholder="Name"><br><br>
+            <input type="text" placeholder="Phone number"><br><br>
+            <input type="text" placeholder="Enter your email"><br><br>
+            <input type="text" placeholder="Enter your address"><br><br>
+            <input type="text" placeholder="Postal ZIP code"><br><br>
+            <button type="button">Sign up</button>
+        </div>
+    </form>
+</body>
+</html>
